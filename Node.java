@@ -1,11 +1,12 @@
 class Node {
-    String kodeBuku, judul, penulis;
+    String kode, nama;
+    int total;
     Node next;
 
-    Node(String kodeBuku, String judul, String penulis) {
-        this.kodeBuku = kodeBuku;
-        this.judul = judul;
-        this.penulis = penulis;
+    Node(String kode, String nama, int total) {
+        this.kode = kode;
+        this.nama = nama;
+        this.total = total;
         this.next = null;
     }
 }
